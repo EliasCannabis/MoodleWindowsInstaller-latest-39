@@ -1,0 +1,270 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'format_grid', language 'ru', version '3.9'.
+ *
+ * @package     format_grid
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['addsection'] = 'Добавить секцию';
+$string['alttext'] = 'Альтернативное название изображения';
+$string['alttext_help'] = 'Этот текст будет записан как альтернативное название изображения';
+$string['bottom'] = 'Снизу';
+$string['cannotconvertuploadedimagetodisplayedimage'] = 'Не удается сконвертировать загруженное изображение. Пожалуйста, сообщите подробности ошибки разработчику.';
+$string['cannotfinduploadedimage'] = 'Не удается найти загруженное изображение. Пожалуйста, сообщите подробности ошибки разработчику.';
+$string['centre'] = 'По центру';
+$string['closeshadebox'] = 'Закрыть окно выбора оттенка';
+$string['colourrule'] = 'Пожалуйста, введите корректный RGB цвет. Шесть шестнадцатиричных символов или \'-\' для значения по умолчанию.';
+$string['crop'] = 'Подрезка';
+$string['currentsection'] = 'Эта секция';
+$string['custommousepointers'] = 'Использовать пользовательские указатели мыши';
+$string['custommousepointers_desc'] = 'Использовать пользовательские указатели мыши в формате Сетка.';
+$string['default'] = 'По умолчанию - {$a}';
+$string['defaultbordercolour'] = 'Значение цвета границы по умолчанию для области с изображением';
+$string['defaultbordercolour_desc'] = 'Значение цвета границы по умолчанию для области с изображением';
+$string['defaultborderradius'] = 'Значение по умолчанию для радиуса скругленных углов';
+$string['defaultborderradius_desc'] = 'Значение по умолчанию для вкл.выкл скругленных углов';
+$string['defaultborderwidth'] = 'Толщина границы по умолчанию';
+$string['defaultborderwidth_desc'] = 'Толщина границы по умолчанию';
+$string['defaultcurrentselectedimagecontainercolour'] = 'Цвет выбранной области изображения';
+$string['defaultcurrentselectedimagecontainercolour_desc'] = 'Цвет выбранной области изображения';
+$string['defaultcurrentselectedimagecontainertextcolour'] = 'Цвет текста текущей выбранной области изображения (по умолчанию).';
+$string['defaultcurrentselectedimagecontainertextcolour_desc'] = 'Устанавливает цвет текста текущей выбранной области изображения по умолчанию.';
+$string['defaultcurrentselectedsectioncolour'] = 'Цвет выбранной секции';
+$string['defaultcurrentselectedsectioncolour_desc'] = 'Цвет выбранной секции';
+$string['defaultdisplayedimagefiletype'] = 'Тип отображаемого изображения';
+$string['defaultdisplayedimagefiletype_desc'] = 'Устанавливает тип отображаемого изображения.';
+$string['defaultfitsectioncontainertowindow'] = 'Подгонять размер секции к размеру окна по умолчанию.';
+$string['defaultfitsectioncontainertowindow_desc'] = 'Значение по умолчанию для параметра «Подгонять размер секции к размеру окна».';
+$string['defaultgreyouthidden'] = 'Недоступное выделять серым цветом';
+$string['defaultgreyouthidden_desc'] = 'При отображении сетки показывать недоступные cекции серым цветом и без возможности открыть.';
+$string['defaulthidesectiontitle'] = 'Скрыть заголовок секции';
+$string['defaulthidesectiontitle_desc'] = 'Скрыть заголовок секции';
+$string['defaultimagecontaineralignment'] = 'Выравнивание изображений по умолчанию';
+$string['defaultimagecontaineralignment_desc'] = 'Значение по умолчанию, используемое для выравнивания области изображения.';
+$string['defaultimagecontainerbackgroundcolour'] = 'Цвет области изображения';
+$string['defaultimagecontainerbackgroundcolour_desc'] = 'Цвет области изображения';
+$string['defaultimagecontainerratio'] = 'Соотношение сторон области изображения';
+$string['defaultimagecontainerratio_desc'] = 'Соотношение сторон области изображения';
+$string['defaultimagecontainerwidth'] = 'Ширина области изображения';
+$string['defaultimagecontainerwidth_desc'] = 'Ширина области изображения';
+$string['defaultimageresizemethod'] = 'Способ изменения размера изображения';
+$string['defaultimageresizemethod_desc'] = 'Способ изменения размера изображения для размещения в области изображения';
+$string['defaultnewactivity'] = 'Показывать изображение-уведомление о новых элементах';
+$string['defaultnewactivity_desc'] = 'Показывать изображение-уведомление о новых элементах, когда новый элемент или ресурс добавлен в секцию';
+$string['defaultsectiontitlealignment'] = 'Выравнивание заголовка секции';
+$string['defaultsectiontitlealignment_desc'] = 'Устанавливает выравнивание заголовка секции «Cлева», «По центру» или «Справа».';
+$string['defaultsectiontitleboxheight'] = 'Высота области заголовка секции';
+$string['defaultsectiontitleboxheight_desc'] = 'Высота области заголовка секции в пикселах или «0» для вычисляемой. При выбранном положении "Внутри"';
+$string['defaultsectiontitleboxinsideposition'] = 'Положение заголовка секции при выбранной настройке «Внутри» сетки';
+$string['defaultsectiontitleboxinsideposition_desc'] = 'Устанавливает положение заголовка секции при выбранной настройке «Внутри» сетки, в одно из следующих значений: «Сверху», «По центру» или «Снизу».';
+$string['defaultsectiontitleboxopacity'] = 'Прозрачность заголовка секции';
+$string['defaultsectiontitleboxopacity_desc'] = 'Прозрачность области заголовка секции между 0 и 1 с шагом 0.1. Когда выбрана настройка «Внутри» сетки.';
+$string['defaultsectiontitleboxposition'] = 'Положение заголовка секции';
+$string['defaultsectiontitleboxposition_desc'] = 'Устанавливает положение заголовка секции «Внутри» или «Снаружи» сетки';
+$string['defaultsectiontitlefontsize'] = 'Размер шрифта заголовка секции';
+$string['defaultsectiontitlefontsize_desc'] = 'Размер шрифта заголовка секции от 12 до 24 пикселов, при этом «0» означает «не устанавливать, а наследовать из темы либо другого применимого стиля CSS».';
+$string['defaultsectiontitlegridlengthmaxoption'] = 'Отображаемая длина заголовка секции';
+$string['defaultsectiontitlegridlengthmaxoption_desc'] = 'Устанавливает максимальную длину (по умолчанию) заголовка секции при наведении на сетку. «0» - без ограничений.';
+$string['defaultsectiontitleinsidetitlebackgroundcolour'] = 'Цвет фона заголовка секции при размещении «Внутри»';
+$string['defaultsectiontitleinsidetitlebackgroundcolour_desc'] = 'Устанавливает цвет фона заголовка, при размещении заголовка «Внутри» сетки.';
+$string['defaultsectiontitleinsidetitletextcolour'] = 'Цвет текста заголовка секции при размещении «Внутри»';
+$string['defaultsectiontitleinsidetitletextcolour_desc'] = 'Устанавливает цвет текста заголовка, при размещении заголовка «Внутри» сетки.';
+$string['defaultsectiontitlesummarybackgroundcolour'] = 'Установить цвет фона описания секции при наведении';
+$string['defaultsectiontitlesummarybackgroundcolour_desc'] = 'Устанавливает цвет фона описания секции при наведении на заголовок секции в сетке.';
+$string['defaultsectiontitlesummarybackgroundopacity'] = 'Установить прозрачность описания секции при наведении';
+$string['defaultsectiontitlesummarybackgroundopacity_desc'] = 'Устанавливает уровень прозрачности описания секции между 0 и 1 с шагом 0.1 при наведении на заголовок секции в сетке.';
+$string['defaultsectiontitlesummarymaxlength'] = 'Установить максимальную длину описания секции при наведении';
+$string['defaultsectiontitlesummarymaxlength_desc'] = 'Устанавливает максимальную длину описания секции при наведении на сетку. «0» - без ограничений.';
+$string['defaultsectiontitlesummarytextcolour'] = 'Установить цвет текста описания секции при наведении';
+$string['defaultsectiontitlesummarytextcolour_desc'] = 'Устанавливает цвет текста описания секции при наведении на заголовок секции в сетке.';
+$string['defaultsetsection0ownpagenogridonesection'] = 'Нулевая секция на своей странице если вне сетки и в режиме одной страницы.';
+$string['defaultsetsection0ownpagenogridonesection_desc'] = 'Размещает нулевую секцию на своей странице, когда она расположена вне сетки, и представление курса установлено в «Показывать одну секцию на странице».';
+$string['defaultsetshowsectiontitlesummaryposition'] = 'Установить положение описания секции при наведении';
+$string['defaultsetshowsectiontitlesummaryposition_desc'] = 'Устанавливает положение описания секции при наведении на сетку в одно из значений: «Сверху», «Снизу», «Слева» или «Справа».';
+$string['defaultshowsectiontitlesummary'] = 'Показывать описание секции при наведении';
+$string['defaultshowsectiontitlesummary_desc'] = 'Показывать описание секции при наведении на сетку.';
+$string['defaultsinglepagesummaryimage'] = 'Показать изображение секции в описании секции при отображении одной секции на странице';
+$string['defaultsinglepagesummaryimage_desc'] = 'Если «Представление курса» установлено в значение «Показывать одну секцию на странице», и у секции есть описание, то изображение секции будет отображаться в соответствии с выбранной позицией.';
+$string['deleteimage'] = 'Удалить изображение';
+$string['deleteimage_help'] = 'Удалить изображение для редактируемой секции. Если на этой форме загружено новое изображение, оно не заменит предыдущее.';
+$string['deletesection'] = 'Удалить секцию';
+$string['display_summary'] = 'переместить из области сетки';
+$string['display_summary_alt'] = 'Переместить секцию из области сетки';
+$string['editimage'] = 'Изменить изображение';
+$string['editimage_alt'] = 'Установить или изменить изображение';
+$string['editsection'] = 'Редактировать секцию';
+$string['editsectionname'] = 'Редактировать заголовок секции';
+$string['gfreset'] = 'Варианты сброса сетки';
+$string['gfreset_help'] = 'Установить настройки по умолчанию';
+$string['greyouthidden'] = 'Недоступное выделять серым цветом';
+$string['greyouthidden_help'] = 'При отображении сетки показывать недоступные cекции серым цветом и без возможности открыть.';
+$string['grid:changeimagecontaineralignment'] = 'Изменить или сбросить выравнивание области изображения';
+$string['grid:changeimagecontainersize'] = 'Изменить или сбросить размер области изображения';
+$string['grid:changeimagecontainerstyle'] = 'Изменить или сбросить оформление области изображения';
+$string['grid:changeimageresizemethod'] = 'Изменить или сбросить способ изменения размера изображения';
+$string['grid:changesectiontitleoptions'] = 'Изменить или сбросить настройки заголовка секции';
+$string['gridimagecontainer'] = 'Изображения сетки';
+$string['hidden_topic'] = 'Эта секция скрыта';
+$string['hide_summary'] = 'переместить секцию в область сетки';
+$string['hide_summary_alt'] = 'Переместить секцию в область сетки';
+$string['hidefromothers'] = 'Скрыть секцию';
+$string['hidesectiontitle'] = 'Параметры скрытия заголовка секции';
+$string['hidesectiontitle_help'] = 'Скрыть заголовок секции';
+$string['imagecannotbeused'] = 'Изображение не может быть использовано. Формат загружаемого изображения должен быть PNG, JPG или GIF, а также должно быть установлено PHP-расширение GD';
+$string['imagefile'] = 'Загрузить изображение';
+$string['imagefile_help'] = 'Загрузка изображения типа PNG, JPG или GIF';
+$string['information'] = 'Информация';
+$string['informationsettingsdesc'] = 'Информация о формате сетка';
+$string['left'] = 'Слева';
+$string['markedthissection'] = 'Эта секция помечена как текущая';
+$string['markthissection'] = 'Пометить эту секцию как текущую';
+$string['nextsection'] = 'Следующая секция';
+$string['numbersections'] = 'Количество секций';
+$string['off'] = 'выкл';
+$string['on'] = 'вкл';
+$string['original'] = 'Исходный';
+$string['page-course-view-grid'] = 'Главная страница курса в формате сетки';
+$string['page-course-view-grid-x'] = 'Любая страница курса в формате сетки';
+$string['pluginname'] = 'Сетка';
+$string['previoussection'] = 'Предыдущая секция';
+$string['resetallfitpopup'] = 'Подгонять секции под размер окна';
+$string['resetallfitpopup_help'] = 'Сбрасывает значение параметра «Подгонять секцию под размер окна» к настройкам по умолчанию.';
+$string['resetallgreyouthidden'] = 'Недоступные выделять серым цветом';
+$string['resetallgreyouthidden_help'] = 'Сбрасывает настройку «При отображении сетки показывать недоступные cекции серым цветом и без возможности открыть» к настройкам, принятым по умолчанию.';
+$string['resetallgrp'] = 'Сбросить все:';
+$string['resetallimagecontaineralignment'] = 'Выравнивание области изображения';
+$string['resetallimagecontaineralignment_help'] = 'Сбрасывает настройки выравнивания изображения секции к значениям по умолчанию.';
+$string['resetallimagecontainernavigation'] = 'Навигация по области изображений';
+$string['resetallimagecontainernavigation_help'] = 'Сбрасывает навигацию по областям изображений к настройкам по умолчанию.';
+$string['resetallimagecontainersize'] = 'Размеры области изображения';
+$string['resetallimagecontainersize_help'] = 'Сбрасывает размеры области изображения к значению по умолчанию для всех курсов, будто формат сетка для курсов настроена впервые';
+$string['resetallimagecontainerstyle'] = 'Оформление областей изображения';
+$string['resetallimagecontainerstyle_help'] = 'Сбрасывает оформление области изображения к значению по умолчанию для всех курсов, будто формат сетка для курсов настроена впервые';
+$string['resetallimageresizemethod'] = 'Способы изменения размера изображения';
+$string['resetallimageresizemethod_help'] = 'Сбрасывает способы изменения размера изображения к значению по умолчанию для всех курсов, будто формат сетка для курсов настроена впервые';
+$string['resetallnewactivity'] = 'Новые элементы';
+$string['resetallnewactivity_help'] = 'Сбрасывает уведомления о новых элементах к значению по умолчанию для всех курсов, будто формат сетка для курсов настроена впервые';
+$string['resetallsectiontitleoptions'] = 'Настройки заголовка секции';
+$string['resetallsectiontitleoptions_help'] = 'Сбрасывает настройки заголовка секции к значениям по умолчанию.';
+$string['resetallsinglepagesummaryimage'] = 'Изображения описания секции в режиме одной секции на странице';
+$string['resetallsinglepagesummaryimage_help'] = 'Сбрасывает настройки изображений описания секции к значениям по умолчанию.';
+$string['resetfitpopup'] = 'Подгонять секцию под размер окна';
+$string['resetfitpopup_help'] = 'Сбрасывает значение параметра «Подгонять секцию под размер окна» к настройкам по умолчанию.';
+$string['resetgreyouthidden'] = 'Недоступное выделять серым цветом';
+$string['resetgreyouthidden_help'] = 'Сбрасывает настройку «При отображении сетки показывать недоступные cекции серым цветом и без возможности открыть» к настройкам, принятым по умолчанию.';
+$string['resetgrp'] = 'Сбросить:';
+$string['resetimagecontaineralignment'] = 'Выравнивание области изображения';
+$string['resetimagecontaineralignment_help'] = 'Сбрасывает выравнивание изображения секции к значению по умолчанию.';
+$string['resetimagecontainernavigation'] = 'Навигация по области изображений';
+$string['resetimagecontainernavigation_help'] = 'Сбрасывает навигацию по области изображений к настройкам по умолчанию.';
+$string['resetimagecontainersize'] = 'Размер области изображения';
+$string['resetimagecontainersize_help'] = 'Сбрасывает размер области изображения к значению по умолчанию, будто формат сетка для курса настроена впервые';
+$string['resetimagecontainerstyle'] = 'Оформление области изображения';
+$string['resetimagecontainerstyle_help'] = 'Сбрасывает оформление области изображения к значению по умолчанию, будто формат сетка для курса настроена впервые';
+$string['resetimageresizemethod'] = 'Способы изменения размера изображения';
+$string['resetimageresizemethod_help'] = 'Сбрасывает способы изменения размера изображения к значению по умолчанию, будто формат сетка для курса настроена впервые';
+$string['resetnewactivity'] = 'Новый элемент';
+$string['resetnewactivity_help'] = 'Сбрасывает уведомления о новых элементах к значению по умолчанию, будто формат сетка для курса настроена впервые';
+$string['resetsectiontitleoptions'] = 'Настройки заголовка секции';
+$string['resetsectiontitleoptions_help'] = 'Сбрасывает настройки заголовка секции к значениям по умолчанию.';
+$string['resetsinglepagesummaryimage'] = 'Изображение описания секции в режиме одной секции на странице';
+$string['resetsinglepagesummaryimage_help'] = 'Сбрасывает настройки изображения описания секции к значению по умолчанию.';
+$string['right'] = 'Справа';
+$string['scale'] = 'Масштабирование';
+$string['section0name'] = 'Основное';
+$string['sectionname'] = 'Секция';
+$string['sectiontitlealignment'] = 'Выравнивание заголовка секции';
+$string['sectiontitlealignment_help'] = 'Установить выравнивание заголовка секции «Слева», «По центру» или «Справа».';
+$string['sectiontitleboxheight'] = 'Высота области заголовка';
+$string['sectiontitleboxheight_help'] = 'Высота области заголовка в пикселах, «0» для вычисляемой, «-» по умолчанию. При положени заголовка «Внутри» сетки.';
+$string['sectiontitleboxinsideposition'] = 'Положение заголовка секции при выбранной настройке «Внутри» сетки';
+$string['sectiontitleboxinsideposition_help'] = 'Установить выравнивание заголовка секции при положении заголовка «Внутри» в одно из значений: «Сверху», «По центру» или «Снизу».';
+$string['sectiontitleboxinsidepositionbottom'] = 'Снизу';
+$string['sectiontitleboxinsidepositionmiddle'] = 'По центру';
+$string['sectiontitleboxinsidepositiontop'] = 'Сверху';
+$string['sectiontitleboxopacity'] = 'Прозрачность заголовка';
+$string['sectiontitleboxopacity_help'] = 'Устанавливает прозрачность области заголовка между 0 и 1 с шагом 0.1. При выбранном положении  «Внутри» сетки.';
+$string['sectiontitleboxposition'] = 'Положение заголовка секции';
+$string['sectiontitleboxposition_help'] = 'Установить положение заголовка секции на одно из значений: "Внутри" или "Снаружи" сетки.';
+$string['sectiontitleboxpositioninside'] = 'Внутри';
+$string['sectiontitleboxpositionoutside'] = 'Снаружи';
+$string['sectiontitlefontsize'] = 'Размер шрифта заголовка секции';
+$string['sectiontitlefontsize_help'] = 'Размер шрифта заголовка секции от 12 до 24 пикселов, при этом «0» означает «не устанавливать, а наследовать из темы либо другого применимого стиля CSS».';
+$string['sectiontitlefontsizerule'] = 'Пожалуйста, введите корректный размер шрифта от 12 до 24, либо 0 - «не устанавливать».';
+$string['sectiontitlegridlengthmaxoption'] = 'Параметр отображения длины заголовка секции';
+$string['sectiontitlegridlengthmaxoption_help'] = 'Установить максимальную длину заголовка секции в поле сетки. "0" - без ограничений или "-" по умолчанию.';
+$string['sectiontitlegridlengthmaxoptionrule'] = 'Максимальная длина заголовка секции в поле сетки . Введите «0» - без ограничений или «-» использовать значение по умолчанию.';
+$string['sectiontitleinsidetitlebackgroundcolour'] = 'Цвет фона заголовка секции при настройке «Внутри»';
+$string['sectiontitleinsidetitlebackgroundcolour_help'] = 'Установить цвет фона заголовка секции при выбранной настройке «Внутри» сетки';
+$string['sectiontitleinsidetitletextcolour'] = 'Цвет фона заголовка секции при настройке «Внутри»';
+$string['sectiontitleinsidetitletextcolour_help'] = 'Устанавливает цвет текста заголовка при выбранной настройке «Внутри» сетки';
+$string['sectiontitlesummarybackgroundcolour'] = 'Установить цвет фона описания секции при наведении';
+$string['sectiontitlesummarybackgroundcolour_help'] = 'Устанавливает цвет фона описания секции при наведении на заголовок секции в сетке.';
+$string['sectiontitlesummarybackgroundopacity'] = 'Установить прозрачность области описания секции при наведении';
+$string['sectiontitlesummarybackgroundopacity_help'] = 'Устанавливает уровень прозрачности описания секции между 0 и 1 с шагом 0.1 при наведении на заголовок секции в сетке.';
+$string['sectiontitlesummarymaxlength'] = 'Установить максимальную длину описания секции при наведении';
+$string['sectiontitlesummarymaxlength_help'] = 'Устанавливает максимальную длину описания секции при наведении на сетку. «0» - без ограничений или «-» для значения по умолчанию.';
+$string['sectiontitlesummarytextcolour'] = 'Установить цвет текста описания секции при наведении';
+$string['sectiontitlesummarytextcolour_help'] = 'Устанавливает цвет текста описания секции при наведении на заголовок секции в сетке.';
+$string['setbordercolour'] = 'Установить цвет границы';
+$string['setbordercolour_help'] = 'Устанавливает цвет границы в шестнадцатиричном RGB';
+$string['setborderradius'] = 'Включить или отключить скругление углов';
+$string['setborderradius_help'] = 'Включает или отключает скругление углов';
+$string['setborderwidth'] = 'Установить толщину границы';
+$string['setborderwidth_help'] = 'Устанавливает толщину границы от 1 до 10';
+$string['setcurrentselectedimagecontainercolour'] = 'Установить цвет для выбранной области изображения';
+$string['setcurrentselectedimagecontainercolour_help'] = 'Устанавливает цвет для выбранной области изображения в шестнадцатиричном RGB';
+$string['setcurrentselectedimagecontainertextcolour'] = 'Установить цвет текста заголовка текущей секции';
+$string['setcurrentselectedimagecontainertextcolour_help'] = 'Устанавливает цвет текста заголовка выбранного изображения в шестнадцатиричном RGB';
+$string['setcurrentselectedsectioncolour'] = 'Установить цвет для выбранной секции';
+$string['setcurrentselectedsectioncolour_help'] = 'Устанавливает цвет для выбранной секции в шестнадцатиричном RGB';
+$string['setfitsectioncontainertowindow'] = 'Подгонять секцию под размер окна';
+$string['setfitsectioncontainertowindow_help'] = 'Если опция включена, всплывающее окно с содержанием секции подгоняется под размер экрана и прокручивается внутри при необходимости. Если опция отключена, будет прокручиваться вся страница.';
+$string['setimagecontaineralignment'] = 'Установить выравнивание области изображения';
+$string['setimagecontaineralignment_help'] = 'Устанавливает выравнивание области изображения влево, по центру или вправо.';
+$string['setimagecontainerbackgroundcolour'] = 'Установить цвет фона для области изображения';
+$string['setimagecontainerbackgroundcolour_help'] = 'Устанавливает цвет фона для области изображения в шестнадцатиричном RGB';
+$string['setimagecontainerratio'] = 'Установить соотношение сторон для области изображения';
+$string['setimagecontainerratio_help'] = 'Устанавливает соотношение сторон для области изображения, как одно из: 3-2, 3-1, 3-3, 2-3, 1-3, 4-3 или 3-4.';
+$string['setimagecontainerwidth'] = 'Установить ширину области изображения';
+$string['setimagecontainerwidth_help'] = 'Устанавливает ширину области изображения. Может принимать значения: 128, 192, 210, 256, 320, 384, 448, 512, 576, 640, 704 или 768';
+$string['setimageresizemethod'] = 'Установить способ изменения размера изображения';
+$string['setimageresizemethod_help'] = 'Устанавливает способ изменения размера  как "Масштабирование" или "Подрезка" для соответствия области изображения.';
+$string['setnewactivity'] = 'Показывать изображение-уведомление о новых элементах';
+$string['setnewactivity_help'] = 'Показывает изображение-уведомление о новых элементах, когда новый элемент курса или ресурс добавляется в секцию';
+$string['setsection0ownpagenogridonesection'] = 'Нулевая секция на своей странице если вне сетки и в режиме одной страницы.';
+$string['setsection0ownpagenogridonesection_help'] = 'Размещает нулевую секцию на своей странице, когда она расположена вне сетки, и представление курса установлено в «Показывать одну секцию на странице».';
+$string['setshowsectiontitlesummaryposition'] = 'Установить положение описания секции при наведении';
+$string['setshowsectiontitlesummaryposition_help'] = 'Устанавливает положение описания секции при наведении на сетку в одно из значений: «Сверху», «Снизу», «Слева» или «Справа».';
+$string['settings'] = 'Настройки';
+$string['settingssettingsdesc'] = 'Настройки формата сетка';
+$string['shadeboxcontent'] = 'Содержимое окна выбора оттенка';
+$string['showfromothers'] = 'Показать секцию';
+$string['showsectiontitlesummary'] = 'Показывать описание секции при наведении';
+$string['showsectiontitlesummary_help'] = 'Показывать описание секции при наведении на сетку.';
+$string['singlepagesummaryimage'] = 'Показать изображение секции в описании секции при отображении одной секции на странице';
+$string['singlepagesummaryimage_help'] = 'Если «Представление курса» установлено в значение «Показывать одну секцию на странице», и у секции есть описание, то изображение секции будет отображаться в соответствии с выбранной позицией.';
+$string['top'] = 'Сверху';
+$string['topic'] = 'Раздел';
+$string['topic0'] = 'Основное';
+$string['webp'] = 'WebP';
